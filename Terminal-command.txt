@@ -1,0 +1,41 @@
+| 命令 | 作用 |
+|------|------|
+| `pwd` | 显示当前所在文件夹路径 |
+| `ls` | 列出当前文件夹内容 |
+| `ls -la` | 详细列出所有文件（含隐藏文件） |
+| `cd 文件夹名` | 进入某个文件夹（如 `cd Machine-Learning`） |
+| `cd ..` | 返回上一级文件夹 |
+| `clear` | 清空终端屏幕 |
+
+| 命令 | 作用 |
+|------|------|
+| `conda env list` | 查看所有虚拟环境 |
+| `conda activate zyw` | 激活名为 `zyw` 的环境（prompt 变 `(zyw)`） |
+| `conda deactivate` | 退出当前环境（回到 `base`） |
+| `conda list` | 查看当前环境已安装的包 |
+| `conda install numpy pandas` | 用 conda 安装包 |
+| `pip install tensorflow` | 用 pip 安装包（如 TF） |
+| `conda env remove -n zyw` | 删除 `zyw` 环境（释放磁盘空间） |
+| `conda env export > environment.yml` | 导出环境配置（方便换电脑复现） |
+
+| 命令 | 作用 |
+|------|------|
+| `git clone https://github.com/xxx/yyy.git` | 从 GitHub 下载整个项目 |
+| `git branch -r` | 查看远程有哪些分支（如 `origin/master`） |
+| `git checkout master` | 切换到 `master` 分支 |
+| `git status` | 查看哪些文件被修改了 |
+| `git add .` | 把所有修改加入“待提交” |
+| `git commit -m "update model"` | 提交更改（加说明） |
+| `git push` | 把本地代码上传到 GitHub（需网络通畅） |
+| `git pull` | 从 GitHub 拉取最新代码 |
+
+| 操作 | 快捷键 / 方法 |
+|------|---------------|
+| 打开新终端 | `` Ctrl + Shift + ` `` |
+| 选择 Python 解释器 | ``Cmd + Shift + P`` → 输入 `Python: Select Interpreter` |
+| 创建新 Notebook | ``Cmd + Shift + P`` → `Jupyter: Create New Blank Notebook` |
+| 运行当前 cell | `Shift + Enter` |
+| 自动补全代码 | `Tab` 或等待 Copilot 建议 |
+| 打开设置 | ``Cmd + ,`` |
+| 打开设置 JSON | ``Cmd + Shift + P`` → `Preferences: Open Settings (JSON)` |
+
